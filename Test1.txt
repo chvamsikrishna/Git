@@ -2,10 +2,10 @@
   {
   String s = "vamsi";
   String e= "";
-  int a = s.length();
-  for(int i=a;i>0;i--)
+  int a = s.length()-1;
+  for(int i=a;i>=0;i--)
   {
-    e=s.charAt(i);
+    e=e+s.charAt(i);
   }
   System.out.println(e);
   }
